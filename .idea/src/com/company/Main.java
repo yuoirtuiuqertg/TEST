@@ -13,7 +13,7 @@ public class Main {
             if(romainOrArabian .ArabinOrRomane(temp)== true) {
                 int te = numberRomain.otvet(temp);
                 String str = String.valueOf(te);
-                System.out.print(te);
+                System.out.print(str);
             } else {
                 int tem = numberArabian.CalculaterArabian(numberArabian.numReem(temp[0]),numberArabian.numReem(temp[2]) , temp[1]);
                 System.out.println(numberArabian.transformNumberRomanNumeral(tem));
